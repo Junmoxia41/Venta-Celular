@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Tecno iTel A90",
+    "ram": "3+3 GB",
+    "storage": "128 GB",
+    "price": 110,
+    "img": "itel_a90.jpg",
+    "description": "Smartphone económico con pantalla grande, ideal para el día a día. Incluye accesorios básicos y caja original sellada.",
+    "badge": null,
+    "specs": {
+      "pantalla": "6.6 pulgadas HD+",
+      "procesador": "Unisoc T606",
+      "cámara": "13 MP trasera / 8 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 13"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy F07",
+    "ram": "4+4 GB",
+    "storage": "64 GB",
+    "price": 120,
+    "img": "samsung_f07.jpg",
+    "description": "Samsung de entrada con calidad garantizada. Pantalla Infinity-V y rendimiento confiable para tareas cotidianas.",
+    "badge": null,
+    "specs": {
+      "pantalla": "6.7 pulgadas HD+ PLS",
+      "procesador": "Exynos 850",
+      "cámara": "8 MP trasera / 5 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 14"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Redmi A5",
+    "ram": "4+4 GB",
+    "storage": "128 GB",
+    "price": 120,
+    "img": "redmi_a5.jpg",
+    "description": "Excelente relación calidad-precio de Xiaomi. Amplio almacenamiento y RAM expandida para multitarea fluida.",
+    "badge": "Más vendido",
+    "specs": {
+      "pantalla": "6.88 pulgadas HD+ IPS",
+      "procesador": "MediaTek Helio G85",
+      "cámara": "50 MP trasera / 5 MP frontal",
+      "batería": "5160 mAh",
+      "sistema": "Android 14 (HyperOS)"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy A07",
+    "ram": "4+4 GB",
+    "storage": "64 GB",
+    "price": 130,
+    "img": "samsung_a07.jpg",
+    "description": "Samsung Galaxy de gama de entrada con diseño moderno y buena experiencia de usuario Samsung.",
+    "badge": null,
+    "specs": {
+      "pantalla": "6.7 pulgadas HD+ TFT",
+      "procesador": "MediaTek Helio G85",
+      "cámara": "50 MP trasera / 8 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 14 (One UI)"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy A06",
+    "ram": "4+4 GB",
+    "storage": "128 GB",
+    "price": 140,
+    "img": "samsung_a06.jpg",
+    "description": "Samsung con mayor almacenamiento para guardar fotos, videos y apps sin preocupaciones.",
+    "badge": null,
+    "specs": {
+      "pantalla": "6.7 pulgadas HD+ PLS",
+      "procesador": "MediaTek Helio G85",
+      "cámara": "50 MP trasera / 8 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 14 (One UI)"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Xiaomi Redmi 15C",
+    "ram": "8+8 GB",
+    "storage": "256 GB",
+    "price": 160,
+    "img": "redmi_15c.jpg",
+    "description": "Potencia máxima con 8 GB de RAM y 256 GB de almacenamiento. Ideal para gamers y usuarios exigentes.",
+    "badge": "Oferta",
+    "specs": {
+      "pantalla": "6.88 pulgadas HD+ IPS 120Hz",
+      "procesador": "MediaTek Helio G81 Ultra",
+      "cámara": "108 MP trasera / 13 MP frontal",
+      "batería": "5160 mAh",
+      "sistema": "Android 14 (HyperOS)"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Samsung Galaxy A16",
+    "ram": "4+4 GB",
+    "storage": "128 GB",
+    "price": 170,
+    "img": "samsung_a16.jpg",
+    "description": "Samsung Galaxy A16 con diseño premium actualizado. Pantalla Super AMOLED para colores vibrantes.",
+    "badge": null,
+    "specs": {
+      "pantalla": "6.7 pulgadas FHD+ Super AMOLED",
+      "procesador": "MediaTek Dimensity 6300",
+      "cámara": "50 MP trasera / 25 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 14 (One UI 6.1)"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy A17",
+    "ram": "4+4 GB",
+    "storage": "128 GB",
+    "price": 190,
+    "img": "samsung_a17.jpg",
+    "description": "La opción intermedia de Samsung con características premium a precio accesible. Cámara mejorada.",
+    "badge": "Nuevo",
+    "specs": {
+      "pantalla": "6.7 pulgadas FHD+ Super AMOLED",
+      "procesador": "MediaTek Dimensity 6300",
+      "cámara": "50 MP + 5 MP trasera / 25 MP frontal",
+      "batería": "5000 mAh",
+      "sistema": "Android 14 (One UI 6.1)"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Xiaomi Redmi Note 14",
+    "ram": "6+6 GB",
+    "storage": "128 GB",
+    "price": 200,
+    "img": "redmi_note14.jpg",
+    "description": "El mejor Redmi Note de la serie. Pantalla AMOLED, cámara de alta resolución y rendimiento excepcional.",
+    "badge": "Top ventas",
+    "specs": {
+      "pantalla": "6.67 pulgadas FHD+ AMOLED 120Hz",
+      "procesador": "MediaTek Dimensity 7025 Ultra",
+      "cámara": "108 MP + 2 MP trasera / 20 MP frontal",
+      "batería": "5110 mAh con carga rápida 33W",
+      "sistema": "Android 14 (HyperOS)"
+    }
+  }
+]

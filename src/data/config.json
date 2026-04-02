@@ -1,0 +1,58 @@
+{
+  "general": {
+    "storeName": "La Casa Del Celular",
+    "whatsappNumber": "5352678747",
+    "currency": "$",
+    "currencyCode": "USD",
+    "deliveryText": "Santa Clara",
+    "deliveryEnabled": true
+  },
+
+  "features": {
+    "darkMode": true,
+    "floatingWhatsApp": true,
+    "backToTop": true,
+    "recentlyViewed": true,
+    "favorites": true,
+    "imageZoom": true,
+    "shareButtons": true,
+    "comparison": true,
+    "faq": true
+  },
+
+  "events": [
+    {
+      "id": "oferta_redmi_15c",
+      "enabled": true,
+      "type": "discount",
+      "productIds": [6],
+      "discountPercent": 10,
+      "label": "Oferta",
+      "showCountdown": false,
+      "countdownEnd": null
+    }
+  ],
+
+  "faq": [
+    {
+      "question": "¿Los equipos son nuevos y sellados?",
+      "answer": "Sí, todos nuestros equipos son 100% nuevos, sellados de fábrica con su garantía original y accesorios incluidos."
+    },
+    {
+      "question": "¿Qué métodos de pago aceptan?",
+      "answer": "Aceptamos Zelle, moneda nacional al cambio del día, euros, dólares canadienses y transferencias bancarias."
+    },
+    {
+      "question": "¿Los equipos tienen garantía?",
+      "answer": "Todos los equipos cuentan con garantía de fábrica. La garantía cubre defectos de fabricación, no daños por mal uso."
+    },
+    {
+      "question": "¿Puedo reservar un equipo?",
+      "answer": "Sí, puedes contactarnos por WhatsApp para reservar tu equipo. La reserva se mantiene por 48 horas."
+    },
+    {
+      "question": "¿Incluyen accesorios?",
+      "answer": "Sí, cada equipo incluye cargador, cable USB, guía rápida y los accesorios originales de fábrica."
+    }
+  ]
+}
