@@ -25,6 +25,19 @@ function renderProductCard(product) {
     badgeHTML = `<div class="product-card__badge product-card__badge--${badgeClass}">${escapeHTML(product.badge)}</div>`;
   }
 
+  const brandColors = {
+    'tecno': 'linear-gradient(135deg, #1a237e, #0d47a1)',
+    'samsung': 'linear-gradient(135deg, #1428a0, #0d47a1)',
+    'xiaomi': 'linear-gradient(135deg, #ff6900, #e65100)',
+    'iphone': 'linear-gradient(135deg, #1c1c1e, #3a3a3c)'
+  };
+  const brand = (product.name || '').toLowerCase();
+  let gradient = 'linear-gradient(135deg, #1b2838, #2d4059)';
+  for (const key of Object.keys(brandColors)) {
+    if (brand.includes(key)) { gradient = brandColors[key]; break; }
+  }
+  const initials = product.name.split(' ').filter(w => w.length > 3).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+
   card.innerHTML = `
     ${badgeHTML}
     <div class="product-card__img-wrapper">
@@ -35,9 +48,9 @@ function renderProductCard(product) {
         loading="lazy"
         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
       />
-      <div class="product-card__placeholder" style="display:none;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-        <span>Imagen no disponible</span>
+      <div class="product-card__placeholder product-card__placeholder--branded" style="display:none; background: ${gradient};">
+        <span class="product-card__placeholder-initials">${escapeHTML(initials)}</span>
+        <span class="product-card__placeholder-name">${escapeHTML(product.name)}</span>
       </div>
     </div>
     <div class="product-card__info">
@@ -147,6 +160,20 @@ function openModal(productId) {
     badgeHTML = `<span class="modal__badge product-card__badge--${badgeClass}">${escapeHTML(product.badge)}</span>`;
   }
 
+  // Brand colors & initials for placeholder
+  const brandColors = {
+    'tecno': 'linear-gradient(135deg, #1a237e, #0d47a1)',
+    'samsung': 'linear-gradient(135deg, #1428a0, #0d47a1)',
+    'xiaomi': 'linear-gradient(135deg, #ff6900, #e65100)',
+    'iphone': 'linear-gradient(135deg, #1c1c1e, #3a3a3c)'
+  };
+  const brand = (product.name || '').toLowerCase();
+  let gradient = 'linear-gradient(135deg, #1b2838, #2d4059)';
+  for (const key of Object.keys(brandColors)) {
+    if (brand.includes(key)) { gradient = brandColors[key]; break; }
+  }
+  const initials = product.name.split(' ').filter(w => w.length > 3).slice(0, 2).map(w => w[0]).join('').toUpperCase();
+
   // Specs grid
   let specsHTML = '';
   if (product.specs) {
@@ -169,9 +196,9 @@ function openModal(productId) {
         alt="${getImageAlt(product)}"
         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
       />
-      <div class="modal__img-placeholder" style="display:none;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-        <span>Imagen no disponible</span>
+      <div class="modal__img-placeholder modal__img-placeholder--branded" style="display:none; background: ${gradient};">
+        <span class="modal__img-placeholder-initials">${escapeHTML(initials)}</span>
+        <span class="modal__img-placeholder-name">${escapeHTML(product.name)}</span>
       </div>
     </div>
     <div class="modal__body">
