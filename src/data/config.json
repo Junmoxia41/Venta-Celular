@@ -17,19 +17,18 @@
     "imageZoom": true,
     "shareButtons": true,
     "comparison": true,
-    "faq": true
+    "faq": true,
+    "security": true,
+    "events": true
   },
 
   "events": [
     {
-      "id": "oferta_redmi_15c",
       "enabled": true,
       "type": "discount",
-      "productIds": [6],
-      "discountPercent": 10,
-      "label": "Oferta",
-      "showCountdown": false,
-      "countdownEnd": null
+      "productIds": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "discountAmount": 10,
+      "label": "-$10"
     }
   ],
 

@@ -1,0 +1,172 @@
+{
+  "eventos": [
+    {
+      "id": "inauguracion",
+      "nombre": "Grand Inauguracion",
+      "descripcion": "Celebra la apertura de La Casa Del Celular con $10 USD de descuento.",
+      "descripcionLarga": "Por la gran inauguracion de nuestra tienda online, queremos premiar tu confianza. Solo por abrir esta pagina tienes un regalo: $10 USD de descuento en el celular que elijas. Toca la caja de regalo, reclama tu codigo y envialo por WhatsApp con el telefono que quieres. Tienes 24 horas desde que ves este mensaje para reclamarlo.",
+      "activo": true,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "INAUG",
+      "emoji": "🎉",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#e63946",
+        "secundario": "#ff6b6b",
+        "fondo": "linear-gradient(135deg, #1a1a2e, #16213e, #0f3460)"
+      }
+    },
+    {
+      "id": "san_valentin",
+      "nombre": "Dia de San Valentin",
+      "descripcion": "El mejor regalo: un celular nuevo con descuento especial.",
+      "descripcionLarga": "Este San Valentin regalale lo mejor. Aprovecha nuestro descuento especial en todos los celulares. Toca la caja, obtiene tu codigo y sorprende a esa persona especial. Tienes 24 horas para reclamar tu descuento.",
+      "activo": false,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "LOVE",
+      "emoji": "💕",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#e91e63",
+        "secundario": "#ff5252",
+        "fondo": "linear-gradient(135deg, #1a0011, #2d0a1e, #4a0e2e)"
+      }
+    },
+    {
+      "id": "dia_mujer",
+      "nombre": "Dia Internacional de la Mujer",
+      "descripcion": "Celebrando a la mujer con tecnologia y descuento.",
+      "descripcionLarga": "En honor al Dia Internacional de la Mujer, te ofrecemos un descuento especial. Porque la mujer merece lo mejor: tecnologia de primera a precio increible.",
+      "activo": false,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "MUJER",
+      "emoji": "💐",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#9c27b0",
+        "secundario": "#e040fb",
+        "fondo": "linear-gradient(135deg, #1a0011, #2d0a2e, #38006b)"
+      }
+    },
+    {
+      "id": "dia_madre",
+      "nombre": "Feliz Dia de la Madre",
+      "descripcion": "El regalo perfecto para mama: un celular nuevo.",
+      "descripcionLarga": "No hay mejor regalo para mama que un celular nuevo. Aprovecha nuestro descuento especial del Dia de la Madre. Toca la caja de regalo y reclama tu codigo de descuento.",
+      "activo": false,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "MAMA",
+      "emoji": "🪷",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#e91e63",
+        "secundario": "#f48fb1",
+        "fondo": "linear-gradient(135deg, #1a000d, #2d001a, #4a002d)"
+      }
+    },
+    {
+      "id": "dia_padre",
+      "nombre": "Feliz Dia del Padre",
+      "descripcion": "Papa merece lo mejor: tecnologia a descuento.",
+      "descripcionLarga": "Este Dia del Padre regalale tecnologia de verdad. Un celular nuevo, sellado, con garantia y a precio especial. Reclama tu codigo de descuento y sorprende a papa.",
+      "activo": false,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "PAPA",
+      "emoji": "👨",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#1565c0",
+        "secundario": "#42a5f5",
+        "fondo": "linear-gradient(135deg, #0a0a1a, #0d1b3e, #102050)"
+      }
+    },
+    {
+      "id": "dia_nino",
+      "nombre": "Dia del Nino",
+      "descripcion": "Sorprende a los mas pequenos con tecnologia.",
+      "descripcionLarga": "El Dia del Nino tambien es para sorprender. Un celular nuevo puede ser el regalo perfecto. Aprovecha nuestro descuento especial y haz feliz a quien mas quieres.",
+      "activo": false,
+      "duracionHoras": 24,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "NINO",
+      "emoji": "🎈",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#ff9800",
+        "secundario": "#ffca28",
+        "fondo": "linear-gradient(135deg, #1a1000, #2d1a00, #3d2600)"
+      }
+    },
+    {
+      "id": "black_friday",
+      "nombre": "Black Friday",
+      "descripcion": "El mayor descuento del ano en celulares.",
+      "descripcionLarga": "BLACK FRIDAY en La Casa Del Celular. Los precios mas bajos del ano en todos los celulares. No te quedes sin el tuyo. Toca la caja, obtiene tu codigo exclusivo y compra antes de que se acabe.",
+      "activo": false,
+      "duracionHoras": 48,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "BLACK",
+      "emoji": "🖤",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#212121",
+        "secundario": "#ffd700",
+        "fondo": "linear-gradient(135deg, #000000, #1a1a1a, #333333)"
+      }
+    },
+    {
+      "id": "navidad",
+      "nombre": "Navidad",
+      "descripcion": "Feliz Navidad con tecnologia a descuento.",
+      "descripcionLarga": "Esta Navidad regalate o regalale lo mejor. Celulares nuevos, sellados, con garantia y un descuento especial para ti. Reclama tu codigo antes de que se acabe.",
+      "activo": false,
+      "duracionHoras": 48,
+      "descuento": 10,
+      "mostrarCajaRegalo": true,
+      "mostrarCuentaRegresiva": true,
+      "mostrarAnimaciones": true,
+      "generarCodigo": true,
+      "prefijoCodigo": "XMAS",
+      "emoji": "🎄",
+      "zonaHoraria": "America/Havana",
+      "colores": {
+        "primario": "#c62828",
+        "secundario": "#4caf50",
+        "fondo": "linear-gradient(135deg, #0a1a0a, #1a2d0a, #0a1a2d)"
+      }
+    }
+  ]
+}

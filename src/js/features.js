@@ -73,12 +73,22 @@
         if (event.type === 'discount') {
           // Tipo descuento: calcular precio con descuento
           const percent = event.discountPercent || 0;
+          const amount = event.discountAmount || 0;
           const originalPrice = product.price;
-          const discountedPrice = originalPrice * (1 - percent / 100);
+          let discountedPrice = originalPrice;
+
+          if (amount > 0) {
+            // Descuento fijo (ej: -$10 USD)
+            discountedPrice = Math.max(0, originalPrice - amount);
+            product._discountAmount = amount;
+          } else if (percent > 0) {
+            // Descuento porcentual
+            discountedPrice = originalPrice * (1 - percent / 100);
+            product._discountPercent = percent;
+          }
 
           product._originalPrice = originalPrice;
-          product._discountPercent = percent;
-          product._eventLabel = event.label || `-${percent}%`;
+          product._eventLabel = event.label || (amount > 0 ? `-$${amount}` : `-${percent}%`);
           product.price = Math.round(discountedPrice * 100) / 100;
         } else if (event.type === 'price_override') {
           // Tipo precio especial: sobreescribir precio

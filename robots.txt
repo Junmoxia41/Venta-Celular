@@ -1,0 +1,8 @@
+# La Casa Del Celular - robots.txt
+# https://lacasadelcelular.ddns.net
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lacasadelcelular.ddns.net/sitemap.xml

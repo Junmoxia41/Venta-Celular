@@ -191,11 +191,19 @@ function generateWhatsAppMessage() {
     '',
     `Total: ${formatPrice(total)}`,
     `Entrega: ${CONFIG.deliveryText}`,
-    '',
-    'Gracias.'
-  ].join('\n');
+  ];
 
-  return message;
+  // Incluir código promocional si existe
+  if (typeof window._lcdcGetPromoCode === 'function') {
+    const promoCode = window._lcdcGetPromoCode();
+    if (promoCode) {
+      message.push('', `Código de descuento: ${promoCode}`);
+    }
+  }
+
+  message.push('', 'Gracias.');
+
+  return message.join('\n');
 }
 
 /**
